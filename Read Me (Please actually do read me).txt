@@ -1,6 +1,8 @@
 
 ///////////       FOR EVERYONE       ///////////////
 
+    Every ability is different at every level. That is the besis of this mode. Blade fury might be normal at level one, but at level two it might attack all enemies in its radius one time, for instance.
+    To alter a specific ability by level, do to the appropriate ability in "npc/npc_abilities.txt." To add a special modifier that gets added when the ability is cast, go to "scripts/vscripts/heroes" and find the apprpriate hero. If the hero file is not yet created, feel free to copy the template and rename it to the correct hero name.
     The guidlines are simple: in this mod, every level of every ability is completely different. Make changes to the kv file at "game/dota_addons/communityeffort/scripts/npc/npc_abilities" to adjust the basica behavior of an ability.
 It is recmonended that you do something extra when the ability is fired, to add another level of behavior, such as adding 50% status resistence for the duration of the ability when it is fired.
 There are instrutions in the template for accomplishing this sort of thing.
@@ -32,8 +34,9 @@ To Learn About Modding:
 Credit:
     Give yourself credit! When you create any code, create a comment at the top of the file so that we know who you are (you should use an alias). Each time the mod is updated, contributors will be mentioned in the mod description and any NEW contributors will also be mentioned in the patch notes.
     Give OTHERS credit if they gave you some code or you altered code written by them, and include where you got the code from. ALWAYS get permissions before using someone else's code.
+    If we need to alter your code to accpet your changes, we will ask you before doing so.
 
-Like this...
+Give/Take Credit Like this...
     /* Created by Abraham Blink'in and Sethorion on 5/5/2055 */
     /* Altered by Jack on 6/6/2066 */
 
