@@ -1,0 +1,46 @@
+
+///////////       FOR EVERYONE       ///////////////
+
+    The guidlines are simple: in this mod, every level of every ability is completely different. Make changes to the kv file at "game/dota_addons/communityeffort/scripts/npc/npc_abilities" to adjust the basica behavior of an ability.
+It is recmonended that you do something extra when the ability is fired, to add another level of behavior, such as adding 50% status resistence for the duration of the ability when it is fired.
+There are instrutions in the template for accomplishing this sort of thing.
+    Also, the base ability class has been extended. Carefully look at "scripts\internal\extend_ability_class" to see what is possible with these new methods.
+
+
+
+///////////      FOR BEGINNERS     ///////////////
+
+To Get Set Up: 
+    Watch This 2-minute Video: WIP
+
+Symlinks Example:
+    mklink /d "C:\Users\Jack\Documents\GitHub\dota-but-community-effort\content" "C:\Program Files (x64)\Steam\steamapps\common\dota 2 beta\content\dota_addons\communityeffort"
+    mklink /d "C:\Users\Jack\Documents\GitHub\dota-but-community-effort\game" "C:\Program Files (x64)\Steam\steamapps\common\dota 2 beta\game\dota_addons\communityeffort"
+
+To Edit Files:
+    Kudos if you are using Notepad, but I suggest Atom or VScode instead, since they will point out syntax issues for you and save you a LOT of time.
+
+To Get Changes Accepted:
+    If you set up your symbolic links as reccomended in the 2-minute video, Github Destktop will automatically see the changes you make on your computer. Follow thise short tutorial to request us to include your changes.
+
+To Learn About Modding:
+
+
+
+///////////    FIRST THINGS FIRST    ///////////////
+
+Credit:
+    Give yourself credit! When you create any code, create a comment at the top of the file so that we know who you are (you should use an alias). Each time the mod is updated, contributors will be mentioned in the mod description and any NEW contributors will also be mentioned in the patch notes.
+    Give OTHERS credit if they gave you some code or you altered code written by them, and include where you got the code from. ALWAYS get permissions before using someone else's code.
+
+Like this...
+    /* Created by Abraham Blink'in and Sethorion on 5/5/2055 */
+    /* Altered by Jack on 6/6/2066 */
+
+Template Code:
+    Use our template code when possible. It should hopefully make your life easier. The folder at "game/scripts/vscripts/modifiers" has a template modifier you can use. Remember to copy-paste the template. Don't edit it directly, please.
+
+Make Requests!
+    If you would like to see another template (for custom items and such) or new extensions to the ability or gamemode base classes, message me directly in Discord
+
+    - Abraham Blink'in
